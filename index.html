@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейная история | Главная</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- НАВИГАЦИЯ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-mug-hot"></i> Кофейная история
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="history.html">История</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Меню</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#offers">Акции</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ГЕРОЙ-СЕКЦИЯ С ВИДЕО -->
+    <section class="hero-video">
+        <div class="container text-center text-white">
+            <h1>Добро пожаловать в <span class="highlight">Кофейную историю</span></h1>
+            <p class="lead">Кофе, который помнит своё происхождение</p>
+            <a href="#menu" class="btn btn-primary btn-lg">Смотреть меню</a>
+        </div>
+    </section>
+
+    <!-- МЕНЮ ТОВАРОВ -->
+    <section id="menu" class="container my-5">
+        <h2 class="text-center mb-4">Наше меню</h2>
+        <div class="row">
+            <!-- Карточка товара 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="img/coffee1.jpg" class="card-img-top" alt="Латте">
+                    <div class="card-body">
+                        <h5 class="card-title">Латте</h5>
+                        <p class="card-text">Нежный кофе с воздушной молочной пеной.</p>
+                        <span class="badge bg-warning text-dark">Хит</span>
+                        <button class="btn btn-outline-primary mt-2">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка товара 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="img/coffee2.jpg" class="card-img-top" alt="Эспрессо">
+                    <div class="card-body">
+                        <h5 class="card-title">Эспрессо</h5>
+                        <p class="card-text">Классический итальянский кофе.</p>
+                        <span class="badge bg-danger">Новинка</span>
+                        <button class="btn btn-outline-primary mt-2">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка товара 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="img/coffee3.jpg" class="card-img-top" alt="Капучино">
+                    <div class="card-body">
+                        <h5 class="card-title">Капучино</h5>
+                        <p class="card-text">Кофе с насыщенной пенкой и какао.</p>
+                        <button class="btn btn-outline-primary mt-2">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- АКЦИИ -->
+    <section id="offers" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Акции</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Утро бодрости</h5>
+                            <p class="card-text">Скидка 20% на любой кофе с 8:00 до 10:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Кофе с собой</h5>
+                            <p class="card-text">Второй напиток в подарок!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section id="reviews" class="container my-5">
+        <h2 class="text-center mb-4">Отзывы гостей</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+                        <p class="mt-2">“Лучший латте в городе! Атмосфера просто волшебная.”</p>
+                        <small>— Анна</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+                        <p class="mt-2">“Кофе с собой – отличная идея. Быстро и вкусно.”</p>
+                        <small>— Дмитрий</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ И ФОРМА -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Свяжитесь с нами</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> ул. Кофейная, 15, Москва</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> hello@coffeehistory.ru</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Обратная связь</h4>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Ваше имя">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="3" placeholder="Сообщение"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР -->
+    <footer class="text-center py-3 bg-secondary text-white">
+        <p>&copy; 2025 Кофейная история. Все права защищены.</p>
+        <div class="social-links">
+            <a href="#" class="text-white mx-2"><i class="fab fa-vk"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
